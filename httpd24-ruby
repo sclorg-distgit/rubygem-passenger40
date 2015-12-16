@@ -1,0 +1,6 @@
+#!/bin/bash
+
+. /opt/rh/ruby193/enable
+export X_SCLS="$X_SCLS $sclname"
+
+ruby "$@"
